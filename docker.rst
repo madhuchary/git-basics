@@ -1,9 +1,7 @@
 Installation Docker
 ===================
-Installation on Ubuntu
----------------------
-apt-get install docker.io::
+Installing docker  on Ubuntu::
 
-Installation on centos
-----------------------
+        sudo apt-get update
+        sudo apt-get install docker.io
 
