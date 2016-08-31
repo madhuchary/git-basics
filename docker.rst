@@ -4,10 +4,8 @@ Installing docker  on Ubuntu::
 
         sudo apt-get update
         sudo apt-get install docker.io
-
 Installing docker on centos::
 	sudo yum update
-
 Add the yum repo::
 	sudo tee /etc/yum.repos.d/docker.repo <<-'EOF'
 	[dockerrepo]
@@ -19,6 +17,5 @@ Add the yum repo::
 	EOF
 Install the Docker package::
 	sudo yum install docker-engine
-
 Start the Docker daemon::
 	sudo service docker start
